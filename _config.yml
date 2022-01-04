@@ -42,7 +42,7 @@ youtube_username: UCiEa1-nvfNhtmsgGV71XyDQ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Ridwan and I'm a devops engineer. As well as administrating systems, managing microservices, i also have hobbiest to learning coding so i can be better devops. I have worked with some companies to gaining teamwork, skills and collaboration.
+  Hi, my name’s Ridwan and I’m a DevOps engineer. As well as administrating systems, managing microservices, I also have a hobbyist in learning coding so I can be a better DevOps. I have worked with some companies to gain teamwork, skills, and collaboration.
 
   I am most skilled in: <mark>Linux</mark>, <mark>Cloud</mark>, and <mark>Kubernetes</mark>
 
