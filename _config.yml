@@ -12,11 +12,11 @@ email: ridwan.sswanto@gmail.com
 # email_title: Email (Email title override)
 phone: Your phone number (optional)
 # phone_title: Phone (Phone title override)
-website: 
+website: https://ridwan-siswanto.com/
 # website_title: Web (Website title override)
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 twitter_username: jekyllrb
@@ -28,7 +28,6 @@ flickr_username: jekyll
 instagram_username: jekyll
 linkedin_username: jekyll
 xing_username: jekyll
-pinterest_username: jekyll
 youtube_username: jekyll
 googleplus_username: +jekyll
 orcid_username: 0000-0000-0000-0000
