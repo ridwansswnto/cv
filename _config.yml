@@ -1,5 +1,5 @@
 # Site
-repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
+repository: ridwansswnto/cv
 # favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
 
 # Content configuration version
@@ -50,51 +50,73 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: Date Range (eg. November 2016 - present)
-        link: Link to company (optional)
+      - layout: top-left
+        title: PT Global Tiket Network
+        sub_title: DevOps Engineer
+        caption: September 2019 - present
+        link: tiket.com
         quote: >
-          Short description of the company (optional)
+          Tiket.com is the fastest growing online travel booking in Indonesia. Tiket.com focused heavily on domestic flights and hotels reservation in Indonesia.
         description: | # this will include new lines to allow paragraphs
-          Description of role
-  - title: Projects # Title for the section
+          - Managing Infrastructure with terraform
+          - Managing image with packer 
+          - Automate tasks and deployment with ansible
+          - Implement gitops with github aciton, and gitlab ci/cd
+          - Automate pipeline jenkins with DSL
+          - Migrate services to kubernetes
+          - Managing manifest kubernetes using kustomize
+      - layout: top-left
+        title: PT Nap Info Lintas Nusa
+        sub_title: System Administrator
+        caption: April 2018 - September 2019
+        link: nap.net.id
+        quote: >
+          NAP Info Lintas Nusa (Matrix NAP Info) is a prominent telecommunication company based in Jakarta, Indonesia.
+        description: | # this will include new lines to allow paragraphs
+          - Managing users mail address and setting users mail to Microsoft Outlook
+          - Managing users PC or Notebook connect to company network and print server
+          - Managing and maintaining baremetal servers with VMware and Linux
+          - Managing Mail server Zimbra and hardening security for reduce spamm
+          - Build Network Monitoring System using cacti
+
+      - layout: top-left
+        title: PT Digital Vision Nusantara
+        sub_title: Infrastructure Engineer
+        caption: March 2017 - April 2018
+        link: www.k-vision.tv
+        quote: >
+          K-Vision is a pay-TV satellite company in the territory of Indonesia.
+        description: | # this will include new lines to allow paragraphs
+          - Managing 10 baremetals server with 5 for services (HP Proliant) and 5 for statefull (sun microsystem)
+          - Managing Network Infrastructure
+          - Build system monitoring for all server (baremetal and vm) using sensu and grafana
+          - Redesign network topology to reduce costs
+          - Maintaining network connection for branch offie to HQ
+          - Managing users mail address and setting users mail to Microsoft Outlook
+          - Managing and maintaining Microsoft Active Directory
+          - Migration from microsoft exchange to g-suite
+          - Managing contact center system (Cisco CUCM and CUIC)
+
+  - title: Certification and Training # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Project name
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
-        additional_links:
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-          - title:  Github page for project (eg. sproogen/modern-resume-theme)
-            icon: fab fa-github
-            url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description about the work on/with the project
+      - layout: top
+        title: CKA
+        link: https://www.credly.com/badges/6dbbb926-cc56-47d3-9fa5-f824d40ca307
+        link_text: Certified Kubernetes Administrator
+        description: |
+          ![Trees](images/cka.jpg "Trees")
+
+
+    # Certified Kubernetes Administrator 
+    # ![cka](/cv/images/cka.jpg "cka")
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-left
         title: Politeknik Pajajaran - ICB Bandung
         sub_title: Associate Degree - Computer Engineering
         caption: 2014 - 2017
-        quote: >
-          Short institution or course description (optional)
-        description: | # this will include new lines to allow paragraphs
-          Description of qualification
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
