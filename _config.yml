@@ -50,7 +50,7 @@ content:
   - title: Experience
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: PT Global Tiket Network
         sub_title: DevOps Engineer
         caption: September 2019 - present
@@ -65,7 +65,7 @@ content:
           - Automate pipeline jenkins with DSL
           - Migrate services to kubernetes
           - Managing manifest kubernetes using kustomize
-      - layout: top-left
+      - layout: left
         title: PT Nap Info Lintas Nusa
         sub_title: System Administrator
         caption: April 2018 - September 2019
@@ -79,7 +79,7 @@ content:
           - Managing Mail server Zimbra and hardening security for reduce spamm
           - Build Network Monitoring System using cacti
 
-      - layout: top-left
+      - layout: left
         title: PT Digital Vision Nusantara
         sub_title: Infrastructure Engineer
         caption: March 2017 - April 2018
@@ -97,15 +97,74 @@ content:
           - Migration from microsoft exchange to g-suite
           - Managing contact center system (Cisco CUCM and CUIC)
 
-  - title: Certification and Training # Title for the section
+  - title: Certification # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: top
-        title: CKA
+      - layout: left
+        title: Certified Kubernetes Administrator
         link: https://www.credly.com/badges/6dbbb926-cc56-47d3-9fa5-f824d40ca307
         link_text: Certified Kubernetes Administrator
         description: |
-          ![Trees](images/cka.jpg "Trees")
+          ![cka](images/cka.jpg "cka")
+      - layout: left
+        title: GitOps Fundamentals with ArgoCD
+        link: https://www.credly.com/badges/6dbbb926-cc56-47d3-9fa5-f824d40ca307
+        link_text: GitOps Fundamentals with ArgoCD
+        description: |
+          ![gitops](images/gitops.jpg "gitops")
+
+  - title: Training # Title for the section
+    layout: list # Type of content section (list/text)
+    content: 
+      - layout: left
+        title: Introduction to GitOps
+        link: https://www.credly.com/badges/34c83dfb-fcbb-417d-8213-db2b827e56a0
+        link_text: Intro to GitOps
+        caption: December 2021
+        description: |
+          - Training Introduction to GitOps
+      - layout: left
+        title: Google Cloud Platform
+        link: https://www.qwiklabs.com/public_profiles/ecb90b21-4947-4b9a-bd53-a8641e59a20b
+        link_text: Google Cloud Platform
+        caption: December 2021
+        description: |
+          - Training Google Cloud and Hands on
+      - layout: left
+        title: Devops Essentials
+        link: https://linuxacademy.com/profile/u/cert/id/196112
+        link_text: Devops Essentials
+        caption: April 2019
+        description: |
+          - Training Devops essentials
+      - layout: left
+        title: Docker
+        link: https://linuxacademy.com/profile/u/cert/id/199914
+        link_text: Docker
+        caption: Mei 2019
+        description: |
+          - Basics of how Docker works
+          - Install the Docker Community Edition
+          - Managing images, containers, networks, and volumes
+          - Build images using a Dockerfile
+          - Tag images and push them to Docker Hub
+          - Use Docker Compose to deploy Microservices to Docker
+          - Run Docker in Swarm Mode for a more production-ready environment
+          - Use Secrets to protect sensitive data like passwords
+      - layout: left
+        title: Kubernetes
+        link: https://linuxacademy.com/profile/u/cert/id/203934
+        link_text: Kubernetes
+        caption: Mei 2019
+        description: |
+          - Training Kubernetes
+      - layout: left
+        title: AWS - CSAA
+        link: https://linuxacademy.com/profile/u/cert/id/208136
+        link_text: aws
+        caption: June 2019
+        description: |
+          - Training AWS Cloud Solution Architect
 
 
     # Certified Kubernetes Administrator 
@@ -113,10 +172,27 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: top-right
         title: Politeknik Pajajaran - ICB Bandung
         sub_title: Associate Degree - Computer Engineering
         caption: 2014 - 2017
+
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Skill Set
+        description: |
+          - Kubernetes, Docker
+          - Google Cloud Platform
+          - Jenkins, Gitlab CI, Github Action
+          - Terraform, Packer, Consul
+          - Kustomize, ArgoCD
+          - Ansible
+          - Linux
+          - Haproxy, Nginx
+          - Bash, Python 
+          - Routing Switching
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
