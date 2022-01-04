@@ -42,13 +42,9 @@ youtube_username: UCiEa1-nvfNhtmsgGV71XyDQ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: images/profile.png
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  Hi, my name's Ridwan and I'm a devops engineer. As well as administrating systems, managing microservices, i also have hobbiest to learning coding so i can be better devops. I have worked with some companies to gaining teamwork, skills and collaboration.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/images/landscape-trees.jpg "Trees")
+  I am most skilled in: <mark>Linux</mark>, <mark>Cloud</mark>, and <mark>Kubernetes</mark>
 
 content:
   - title: Projects # Title for the section
