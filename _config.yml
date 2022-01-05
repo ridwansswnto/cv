@@ -21,9 +21,9 @@ darkmode: true
 # Social links
 github_username:  ridwansswnto
 linkedin_username: ridwan-dwi
-youtube_username: UCiEa1-nvfNhtmsgGV71XyDQ
+# youtube_username: UCiEa1-nvfNhtmsgGV71XyDQ
 
-# Additional icon links
+#Additional icon links
 # additional_links:
 # - title: Link name
 #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -116,44 +116,54 @@ content:
   - title: Training # Title for the section
     layout: list # Type of content section (list/text)
     content: 
-      - layout: top-middle
+      - layout: left
         title: Introduction to GitOps
         link: https://www.credly.com/badges/34c83dfb-fcbb-417d-8213-db2b827e56a0
         link_text: Intro to GitOps
-        caption: December 2021
-      - layout: top-middle
+        caption: 2021
+      - layout: left
         title: Google Cloud Platform
         link: https://www.qwiklabs.com/public_profiles/ecb90b21-4947-4b9a-bd53-a8641e59a20b
         link_text: Google Cloud Platform
-        caption: December 2021
-      - layout: top-middle
+        caption: 2021
+      - layout: left
         title: Devops Essentials
         link: https://linuxacademy.com/profile/u/cert/id/196112
         link_text: Devops Essentials
-        caption: April 2019
-      - layout: top-middle
+        caption: 2019
+      - layout: left
         title: Docker
-        link: https://linuxacademy.com/profile/u/cert/id/199914
-        link_text: Docker
-        caption: Mei 2019
-      - layout: top-middle
+        caption: 2019
+        additional_links: 
+          - title: Docker Quick Start
+            url: https://linuxacademy.com/profile/u/cert/id/196283
+          - title: Docker Deep Dive
+            url: https://linuxacademy.com/profile/u/cert/id/199914
+          - title: Learn Docker by Doing
+            url: https://linuxacademy.com/profile/u/cert/id/201039
+      - layout: left
         title: Kubernetes
-        link: https://linuxacademy.com/profile/u/cert/id/203934
-        link_text: Kubernetes
-        caption: Mei 2019
-      - layout: top-middle
-        title: AWS - CSAA
-        link: https://linuxacademy.com/profile/u/cert/id/208136
-        link_text: aws
-        caption: June 2019
+        caption: 2019
+        additional_links: 
+          - title: Training CKA
+            url: https://linuxacademy.com/profile/u/cert/id/203934
+          - title: Kubernetes Quick Start
+            url: https://linuxacademy.com/profile/u/cert/id/201568
+          - title: Kubernetes Essentials
+            url: https://linuxacademy.com/profile/u/cert/id/202507
+      - layout: left
+        title: AWS - Certified Solution Architect Associate
+        caption: 2019
+        additional_links: 
+          - title: AWS - CSAA
+            url: https://linuxacademy.com/profile/u/cert/id/208136
+          - title: AWS Essentials
+            url: https://linuxacademy.com/profile/u/cert/id/205674
 
-
-    # Certified Kubernetes Administrator 
-    # ![cka](/cv/images/cka.jpg "cka")
   - title: Education
     layout: list
     content:
-      - layout: top-right
+      - layout: top-middle
         title: Politeknik Pajajaran - ICB Bandung
         sub_title: Associate Degree - Computer Engineering
         caption: 2014 - 2017

@@ -10,20 +10,23 @@
           {%- if item.link_text -%}{{ item.link_text }}{%- else -%}{{ item.link }}{%- endif -%}
         </a>
       {%- endif -%}
-
-      <p class="no-print aditional-links">
-        {% for link in item.additional_links %}
-          {% include a.html href=link.url class="" %}
-            <i class="{{ link.icon }}" title="{{ link.title | escape }}"></i>
-          </a>
-        {% endfor %}
-      </p>
     </div>
     <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
       {%- if item.quote -%}
         <p class="quote">{{ item.quote }}</p>
       {%- endif -%}
       {{ item.description | strip | markdownify }}
+      <p class="no-print aditional-links">
+        <ul>
+        {% for link in item.additional_links %}
+        <li>
+        {% include a.html href=link.url class="title" %}
+          {%- if link.title -%}{{ link.title }}{%- else -%}{{ item.link }}{%- endif -%}
+        </a>
+      </li>
+        {% endfor %}
+      </ul>
+      </p>
     </div>
   </div>
 {% endfor %}
